@@ -15,13 +15,25 @@
 		1859D77419CA0F0E00782A29 /* collectionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D77319CA0F0E00782A29 /* collectionAppDelegate.m */; };
 		1859D77719CA0F0E00782A29 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1859D77519CA0F0E00782A29 /* Main_iPhone.storyboard */; };
 		1859D77A19CA0F0E00782A29 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1859D77819CA0F0E00782A29 /* Main_iPad.storyboard */; };
-		1859D77D19CA0F0E00782A29 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D77C19CA0F0E00782A29 /* collectionViewController.m */; };
 		1859D77F19CA0F0E00782A29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859D77E19CA0F0E00782A29 /* Images.xcassets */; };
 		1859D78619CA0F0E00782A29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859D78519CA0F0E00782A29 /* XCTest.framework */; };
 		1859D78719CA0F0E00782A29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859D76319CA0F0E00782A29 /* Foundation.framework */; };
 		1859D78819CA0F0F00782A29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859D76719CA0F0E00782A29 /* UIKit.framework */; };
 		1859D79019CA0F0F00782A29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1859D78E19CA0F0F00782A29 /* InfoPlist.strings */; };
 		1859D79219CA0F0F00782A29 /* CollectionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D79119CA0F0F00782A29 /* CollectionTestTests.m */; };
+		1859D79D19CA0FBC00782A29 /* classCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D79C19CA0FBC00782A29 /* classCollectionViewController.m */; };
+		1859D7A419CA10A000782A29 /* classCVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859D7A319CA10A000782A29 /* classCVCCell.m */; };
+		1859D7AE19CA1A5100782A29 /* mzingabeeCloseup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7A519CA1A5100782A29 /* mzingabeeCloseup.jpg */; };
+		1859D7AF19CA1A5100782A29 /* IMG_0140.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7A619CA1A5100782A29 /* IMG_0140.jpg */; };
+		1859D7B019CA1A5100782A29 /* IMG_0187.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7A719CA1A5100782A29 /* IMG_0187.jpg */; };
+		1859D7B119CA1A5100782A29 /* IMG_0201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7A819CA1A5100782A29 /* IMG_0201.jpg */; };
+		1859D7B219CA1A5100782A29 /* IMG_0204.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7A919CA1A5100782A29 /* IMG_0204.jpg */; };
+		1859D7B319CA1A5100782A29 /* IMG_0223.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7AA19CA1A5100782A29 /* IMG_0223.jpg */; };
+		1859D7B419CA1A5100782A29 /* IMG_0561.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7AB19CA1A5100782A29 /* IMG_0561.jpg */; };
+		1859D7B519CA1A5100782A29 /* IMG_0066.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7AC19CA1A5100782A29 /* IMG_0066.jpg */; };
+		1859D7B619CA1A5100782A29 /* IMG_0095.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1859D7AD19CA1A5100782A29 /* IMG_0095.jpg */; };
+		18623ED719CB5925008433E4 /* classListHeaderCRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 18623ED619CB5925008433E4 /* classListHeaderCRV.m */; };
+		18823FD219D5F79F00A8D9F8 /* oneClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18823FD119D5F79F00A8D9F8 /* oneClassVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +59,29 @@
 		1859D77319CA0F0E00782A29 /* collectionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionAppDelegate.m; sourceTree = "<group>"; };
 		1859D77619CA0F0E00782A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1859D77919CA0F0E00782A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		1859D77B19CA0F0E00782A29 /* collectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
-		1859D77C19CA0F0E00782A29 /* collectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionViewController.m; sourceTree = "<group>"; };
 		1859D77E19CA0F0E00782A29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1859D78419CA0F0E00782A29 /* CollectionTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1859D78519CA0F0E00782A29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1859D78D19CA0F0F00782A29 /* CollectionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionTestTests-Info.plist"; sourceTree = "<group>"; };
 		1859D78F19CA0F0F00782A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1859D79119CA0F0F00782A29 /* CollectionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionTestTests.m; sourceTree = "<group>"; };
+		1859D79B19CA0FBC00782A29 /* classCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classCollectionViewController.h; sourceTree = "<group>"; };
+		1859D79C19CA0FBC00782A29 /* classCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classCollectionViewController.m; sourceTree = "<group>"; };
+		1859D7A219CA10A000782A29 /* classCVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classCVCCell.h; sourceTree = "<group>"; };
+		1859D7A319CA10A000782A29 /* classCVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classCVCCell.m; sourceTree = "<group>"; };
+		1859D7A519CA1A5100782A29 /* mzingabeeCloseup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mzingabeeCloseup.jpg; path = ../../../Desktop/mzingabeeCloseup.jpg; sourceTree = "<group>"; };
+		1859D7A619CA1A5100782A29 /* IMG_0140.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0140.jpg; path = ../../../Desktop/IMG_0140.jpg; sourceTree = "<group>"; };
+		1859D7A719CA1A5100782A29 /* IMG_0187.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0187.jpg; path = ../../../Desktop/IMG_0187.jpg; sourceTree = "<group>"; };
+		1859D7A819CA1A5100782A29 /* IMG_0201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0201.jpg; path = ../../../Desktop/IMG_0201.jpg; sourceTree = "<group>"; };
+		1859D7A919CA1A5100782A29 /* IMG_0204.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0204.jpg; path = ../../../Desktop/IMG_0204.jpg; sourceTree = "<group>"; };
+		1859D7AA19CA1A5100782A29 /* IMG_0223.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0223.jpg; path = ../../../Desktop/IMG_0223.jpg; sourceTree = "<group>"; };
+		1859D7AB19CA1A5100782A29 /* IMG_0561.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0561.jpg; path = ../../../Desktop/IMG_0561.jpg; sourceTree = "<group>"; };
+		1859D7AC19CA1A5100782A29 /* IMG_0066.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0066.jpg; path = ../../../Desktop/IMG_0066.jpg; sourceTree = "<group>"; };
+		1859D7AD19CA1A5100782A29 /* IMG_0095.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0095.jpg; path = ../../../Desktop/IMG_0095.jpg; sourceTree = "<group>"; };
+		18623ED519CB5925008433E4 /* classListHeaderCRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classListHeaderCRV.h; sourceTree = "<group>"; };
+		18623ED619CB5925008433E4 /* classListHeaderCRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classListHeaderCRV.m; sourceTree = "<group>"; };
+		18823FD019D5F79F00A8D9F8 /* oneClassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneClassVC.h; sourceTree = "<group>"; };
+		18823FD119D5F79F00A8D9F8 /* oneClassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneClassVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +111,9 @@
 		1859D75719CA0F0E00782A29 = {
 			isa = PBXGroup;
 			children = (
+				1859D77519CA0F0E00782A29 /* Main_iPhone.storyboard */,
+				1859D77819CA0F0E00782A29 /* Main_iPad.storyboard */,
+				1859D79E19CA0FC500782A29 /* Views */,
 				1859D76919CA0F0E00782A29 /* CollectionTest */,
 				1859D78B19CA0F0F00782A29 /* CollectionTestTests */,
 				1859D76219CA0F0E00782A29 /* Frameworks */,
@@ -116,10 +146,6 @@
 			children = (
 				1859D77219CA0F0E00782A29 /* collectionAppDelegate.h */,
 				1859D77319CA0F0E00782A29 /* collectionAppDelegate.m */,
-				1859D77519CA0F0E00782A29 /* Main_iPhone.storyboard */,
-				1859D77819CA0F0E00782A29 /* Main_iPad.storyboard */,
-				1859D77B19CA0F0E00782A29 /* collectionViewController.h */,
-				1859D77C19CA0F0E00782A29 /* collectionViewController.m */,
 				1859D77E19CA0F0E00782A29 /* Images.xcassets */,
 				1859D76A19CA0F0E00782A29 /* Supporting Files */,
 			);
@@ -129,6 +155,15 @@
 		1859D76A19CA0F0E00782A29 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1859D7A519CA1A5100782A29 /* mzingabeeCloseup.jpg */,
+				1859D7A619CA1A5100782A29 /* IMG_0140.jpg */,
+				1859D7A719CA1A5100782A29 /* IMG_0187.jpg */,
+				1859D7A819CA1A5100782A29 /* IMG_0201.jpg */,
+				1859D7A919CA1A5100782A29 /* IMG_0204.jpg */,
+				1859D7AA19CA1A5100782A29 /* IMG_0223.jpg */,
+				1859D7AB19CA1A5100782A29 /* IMG_0561.jpg */,
+				1859D7AC19CA1A5100782A29 /* IMG_0066.jpg */,
+				1859D7AD19CA1A5100782A29 /* IMG_0095.jpg */,
 				1859D76B19CA0F0E00782A29 /* CollectionTest-Info.plist */,
 				1859D76C19CA0F0E00782A29 /* InfoPlist.strings */,
 				1859D76F19CA0F0E00782A29 /* main.m */,
@@ -153,6 +188,21 @@
 				1859D78E19CA0F0F00782A29 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1859D79E19CA0FC500782A29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18823FD019D5F79F00A8D9F8 /* oneClassVC.h */,
+				18823FD119D5F79F00A8D9F8 /* oneClassVC.m */,
+				18623ED519CB5925008433E4 /* classListHeaderCRV.h */,
+				18623ED619CB5925008433E4 /* classListHeaderCRV.m */,
+				1859D7A219CA10A000782A29 /* classCVCCell.h */,
+				1859D7A319CA10A000782A29 /* classCVCCell.m */,
+				1859D79B19CA0FBC00782A29 /* classCollectionViewController.h */,
+				1859D79C19CA0FBC00782A29 /* classCollectionViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +283,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1859D77A19CA0F0E00782A29 /* Main_iPad.storyboard in Resources */,
+				1859D7AE19CA1A5100782A29 /* mzingabeeCloseup.jpg in Resources */,
+				1859D7B119CA1A5100782A29 /* IMG_0201.jpg in Resources */,
+				1859D7B419CA1A5100782A29 /* IMG_0561.jpg in Resources */,
+				1859D7B619CA1A5100782A29 /* IMG_0095.jpg in Resources */,
 				1859D77F19CA0F0E00782A29 /* Images.xcassets in Resources */,
+				1859D7B219CA1A5100782A29 /* IMG_0204.jpg in Resources */,
 				1859D77719CA0F0E00782A29 /* Main_iPhone.storyboard in Resources */,
+				1859D7B519CA1A5100782A29 /* IMG_0066.jpg in Resources */,
+				1859D7B319CA1A5100782A29 /* IMG_0223.jpg in Resources */,
+				1859D7AF19CA1A5100782A29 /* IMG_0140.jpg in Resources */,
 				1859D76E19CA0F0E00782A29 /* InfoPlist.strings in Resources */,
+				1859D7B019CA1A5100782A29 /* IMG_0187.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1859D77419CA0F0E00782A29 /* collectionAppDelegate.m in Sources */,
-				1859D77D19CA0F0E00782A29 /* collectionViewController.m in Sources */,
+				18623ED719CB5925008433E4 /* classListHeaderCRV.m in Sources */,
+				18823FD219D5F79F00A8D9F8 /* oneClassVC.m in Sources */,
 				1859D77019CA0F0E00782A29 /* main.m in Sources */,
+				1859D79D19CA0FBC00782A29 /* classCollectionViewController.m in Sources */,
+				1859D7A419CA10A000782A29 /* classCVCCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +355,7 @@
 				1859D77619CA0F0E00782A29 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = CollectionTest;
 			sourceTree = "<group>";
 		};
 		1859D77819CA0F0E00782A29 /* Main_iPad.storyboard */ = {
@@ -301,6 +364,7 @@
 				1859D77919CA0F0E00782A29 /* Base */,
 			);
 			name = Main_iPad.storyboard;
+			path = CollectionTest;
 			sourceTree = "<group>";
 		};
 		1859D78E19CA0F0F00782A29 /* InfoPlist.strings */ = {
@@ -471,6 +535,7 @@
 				1859D79719CA0F0F00782A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1859D79819CA0F0F00782A29 /* Build configuration list for PBXNativeTarget "CollectionTestTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +544,7 @@
 				1859D79A19CA0F0F00782A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

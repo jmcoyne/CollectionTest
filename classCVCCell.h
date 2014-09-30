@@ -1,5 +1,5 @@
 //
-//  collectionViewController.h
+//  classCVCCell.h
 //  CollectionTest
 //
 //  Created by Joan Coyne on 9/17/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface collectionViewController : UIViewController
-
+@interface classCVCCell : UICollectionViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @end
